@@ -14,7 +14,7 @@ div.drum-sets {
 div.drum-sets:nth-of-type(1) {
     margin-top: 25vh;
 }
-div h4 {
+div h3 {
     color: white;
     text-shadow: 2px 2px black;
 }
