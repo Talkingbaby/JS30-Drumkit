@@ -14,7 +14,8 @@ div.drum-sets {
 div.drum-sets:nth-of-type(1) {
     margin-top: 25vh;
 }
-div > h3 {
+
+div h3:first-child {
     color: white;
     text-shadow: 2px 2px black;
 }
