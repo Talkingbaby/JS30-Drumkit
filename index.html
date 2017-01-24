@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drumkit</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+
+<div class="container-fluid text-center drum-sets">
+    <!--daibyoshi-->
+    <div class="keys col-sm-5">
+        <h4>Daibyoshi</h4>
+        <div data-key="81" class="key col-sm-3">
+            <div>Q</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="87" class="key col-sm-3">
+            <div>W</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="69" class="key col-sm-3">
+            <div>E</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="65" class="key col-sm-3">
+            <div>A</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="83" class="key col-sm-3">
+            <div>S</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="68" class="key col-sm-3">
+            <div>D</div>
+            <span class="sound"></span>
+        </div>
+    </div>
+
+    <!--hirado-->
+    <div class="keys col-sm-2">
+        <h4>Hirado</h4>
+        <div data-key="84" class="key col-sm-5">
+            <div>T</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="89" class="key col-sm-5">
+            <div>Y</div>
+            <span class="sound"></span>
+        </div>
+    </div>
+
+    <!--miyadaiko-->
+    <div class="keys col-sm-5">
+        <h4>Miyadaiko</h4>
+        <div data-key="85" class="key col-sm-3">
+            <div>U</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="73" class="key col-sm-3">
+            <div>I</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="79" class="key col-sm-3">
+            <div>O</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="80" class="key col-sm-3">
+            <div>P</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="72" class="key col-sm-3">
+            <div>H</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="74" class="key col-sm-3">
+            <div>J</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="75" class="key col-sm-3">
+            <div>K</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="76" class="key col-sm-3">
+            <div>L</div>
+            <span class="sound"></span>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid text-center drum-sets">
+    <!--mokugyo-->
+    <div class="keys col-sm-3">
+        <h4>Mokugyo</h4>
+        <div data-key="90" class="key col-sm-5">
+            <div>Z</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="88" class="key col-sm-5">
+            <div>X</div>
+            <span class="sound"></span>
+        </div>
+    </div>
+
+    <!--mokusho-->
+    <div class="keys col-sm-3">
+        <h4>Mokusho</h4>
+        <div data-key="67" class="key col-sm-5">
+            <div>C</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="86" class="key col-sm-5">
+            <div>V</div>
+            <span class="sound"></span>
+        </div>
+    </div>
+
+    <!--okedo-->
+    <div class="keys col-sm-6">
+        <h4>Okedo</h4>
+        <div data-key="66" class="key col-sm-3">
+            <div>B</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="78" class="key col-sm-3">
+            <div>N</div>
+            <span class="sound"></span>
+        </div>
+        <div data-key="77" class="key col-sm-3">
+            <div>M</div>
+            <span class="sound"></span>
+        </div>
+    </div>
+</div>
+
+
+
+<audio data-key="81" src="sounds/japaneseDrums/daibyoshi-A1.wav"></audio>
+<audio data-key="87" src="sounds/japaneseDrums/daibyoshi-A2.wav"></audio>
+<audio data-key="69" src="sounds/japaneseDrums/daibyoshi-A3.wav"></audio>
+<audio data-key="65" src="sounds/japaneseDrums/daibyoshi-B1.wav"></audio>
+<audio data-key="83" src="sounds/japaneseDrums/daibyoshi-B2.wav"></audio>
+<audio data-key="68" src="sounds/japaneseDrums/daibyoshi-B3.wav"></audio>
+
+<audio data-key="84" src="sounds/japaneseDrums/hirado-A1.wav"></audio>
+<audio data-key="89" src="sounds/japaneseDrums/hirado-B1.wav"></audio>
+
+<audio data-key="85" src="sounds/japaneseDrums/miyadaiko-A1.wav"></audio>
+<audio data-key="73" src="sounds/japaneseDrums/miyadaiko-A2.wav"></audio>
+<audio data-key="79" src="sounds/japaneseDrums/miyadaiko-B1.wav"></audio>
+<audio data-key="80" src="sounds/japaneseDrums/miyadaiko-C1.wav"></audio>
+<audio data-key="72" src="sounds/japaneseDrums/miyadaiko-C2.wav"></audio>
+<audio data-key="74" src="sounds/japaneseDrums/miyadaiko-D1.wav"></audio>
+<audio data-key="75" src="sounds/japaneseDrums/miyadaiko-D2.wav"></audio>
+<audio data-key="76" src="sounds/japaneseDrums/miyadaiko-D3.wav"></audio>
+
+<audio data-key="90" src="sounds/japaneseDrums/mokugyo-A1.wav"></audio>
+<audio data-key="88" src="sounds/japaneseDrums/mokugyo-A2.wav"></audio>
+
+<audio data-key="67" src="sounds/japaneseDrums/mokusho-A1.wav"></audio>
+<audio data-key="86" src="sounds/japaneseDrums/mokusho-A2.wav"></audio>
+
+<audio data-key="66" src="sounds/japaneseDrums/okedo-A1.wav"></audio>
+<audio data-key="78" src="sounds/japaneseDrums/okedo-A2.wav"></audio>
+<audio data-key="77" src="sounds/japaneseDrums/okedo-C1.wav"></audio>
+
+<script>
+
+function playSound(event) {
+    const audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
+    const key = document.querySelector(`.key[data-key="${event.keyCode}"]`);
+    audio.currentTime = 0; // rewind to the start
+    if(!audio) return; // stop the function from running
+    audio.play();
+    key.classList.add('playing');
+}
+
+function removeTransition(event){
+    if(event.propertyName !== 'transform') return; //skip if not a transform
+    this.classList.remove('playing');
+    console.log(this);
+};
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+
+window.addEventListener('keydown', playSound);
+</script>
+</body>
+</html>
